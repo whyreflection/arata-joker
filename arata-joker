@@ -1,0 +1,10 @@
+#!/bin/zsh
+if [ "$#" -ne "1" ]
+then
+echo "Arata Joker not specified."
+exit 
+fi
+qterminal -p arata-joker -e openvpn `plocate "$1"`
+
+
+

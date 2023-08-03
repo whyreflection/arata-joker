@@ -1,0 +1,7 @@
+#!/bin/zsh
+apt install -y qterminal
+apt install -y openvpn
+apt install -y plocate
+cp ./arata-joker.png /root/.config/
+cp ./arata-joker.conf /root/.config/
+cp ./arata-joker /usr/local/bin/
